@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  /* background-color: aqua; */
+}
+ul {
+  display: flex;
+  float: right;
+  padding-top: 15px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  padding-right: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.profile {
+  background-image: url(assets/1000006116.jpg);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.container {
+  width: auto;
+  height: 400px;
+  /* margin-top: 250px; */
+  /* background-color: aqua; */
+}
+/* blue color  */
+.google-logo {
+  margin: 150px auto 0 500px;
+  width: 45px;
+  height: 30px;
+  border-top: 30px solid #4285f4;
+  border-right: 30px solid #4285f4;
+  border-bottom: 30px solid #4285f4;
+  border-radius: 0 0 250px 0;
+  position: relative;
+  box-sizing: content-box;
+}
+/* red green yellow  */
+.google-logo:before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-top: 30px solid #ea4335;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #34a853;
+  border-left: 30px solid #fbbc05;
+  border-radius: 200px;
+  box-sizing: border-box;
+  position: absolute;
+  top: -89px;
+  right: -30px;
+}
+h1 {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 200px;
+  font-size: 100px;
+  letter-spacing: 10px;
+  margin-left: 80px;
+  top: -70px;
+  color: rgb(190, 240, 226);
+  /* background-color: palevioletred; */
+}
+.search {
+  width: 600px;
+  height: 50px;
+  background-color: rgb(226, 240, 236);
+  border-radius: 50px;
+  margin-left: 350px;
+  margin-top: 20px;
+  display: flex;
+}
+.left,
+.para {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.right {
+  margin-left: 250px;
+  margin-top: 15px;
+  word-spacing: 20px;
+}
+.round {
+  margin-left: 370px;
+  margin-top: 30px;
+}
+.first_row,
+.sec_row {
+  display: flex;
+  gap: 70px;
+}
+.sec_row {
+  margin-top: 70px;
+}
+.round1,
+.round2,
+.round3,
+.round4,
+.round5,
+.round6,
+.round7,
+.round8,
+.round9,
+.round10 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(151, 149, 149);
+}
+.round1_1,
+.round2_1,
+.round3_1,
+.round4_1,
+.round5_1,
+.round6_1,
+.round7_1,
+.round8_1,
+.round9_1,
+.round10_1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(223, 212, 199);
+  margin-top: 9px;
+  margin-left: 10px;
+}
+h4 {
+  text-align: center;
+  padding-top: 5px;
+}
+.sub_head,
+.sub_head_icon {
+  margin-top: 30px;
+}
+.sub_head_icon {
+  padding-left: 10px;
+}
